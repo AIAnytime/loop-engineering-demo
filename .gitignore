@@ -1,0 +1,24 @@
+# secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# venv / python
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+
+# loop runtime output (regenerated every run)
+STATE.md
+STATE.json
+loop-run-log.jsonl
+artifacts/
+
+# generated deck assets (rebuild with make_diagrams.py / make_deck.py)
+deck/diagrams/*.dot
+
+# not published to the repo
+explainer.md
+*.pptx
+.claude/
