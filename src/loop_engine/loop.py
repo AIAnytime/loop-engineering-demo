@@ -1,6 +1,6 @@
 """THE LOOP.
 
-Read this file top to bottom -- it is the whole workshop in ~150 lines.
+Read this file top to bottom
 
     goal
       -> read state          (external memory, survives the process)
